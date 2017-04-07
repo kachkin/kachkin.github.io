@@ -1,0 +1,25 @@
+.image{
+    width: 100%;
+}
+.image-mini{
+    margin-bottom: 20px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+#text-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    -webkit-transform: translate(0, -10%);
+    -ms-transform: translate(0, -10%);
+    transform: translate(0, -10%);
+}
+#text-image #text{
+    padding-left: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+}
+#bid-text{
+    font-size: 30pt;
+}
